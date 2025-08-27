@@ -1,0 +1,21 @@
+aixplain:
+  api_key: "${AIXPLAIN_API_KEY}"
+  default_llm_id: "6646261c6eb563165658bbb1"  # GPT-4
+
+data_sources:
+  federal_register:
+    base_url: "https://www.federalregister.gov/api/v1"
+  court_listener:
+    base_url: "https://www.courtlistener.com/api/rest/v4"
+  epa:
+    base_url: "https://www.epa.gov"
+
+vector_store:
+  name: "policy_documents"
+  embedding_model: "text-embedding-3-large"
+  max_file_size: 52428800  # 50MB
+
+tools:
+  document_processor: "6849dd3fd208307eba0cc122"
+  web_scraper: "66f423426eb563fa213a3531"
+  google_search: "65c51c556eb563350f6e1bb1"
