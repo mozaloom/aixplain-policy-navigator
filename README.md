@@ -2,6 +2,10 @@
 
 A sophisticated Multi-Agent RAG (Retrieval-Augmented Generation) system that allows users to query and extract insights from complex government regulations, compliance policies, and public health guidelines through natural language interactions, built with the aiXplain SDK.
 
+![Policy Navigator UI](images/ui.png)
+
+*Modern React interface for policy queries and compliance analysis*
+
 ## Objective
 
 Build an Agentic RAG system that enables users to query and extract insights from complex government regulations, compliance policies, or public health guidelines using natural language processing and intelligent agent workflows.
@@ -43,6 +47,10 @@ Source: Government Compliance Database"
 - **Natural Language Queries**: Ask questions like "When does this policy take effect?" or "What are the compliance requirements for small businesses?"
 - **Intelligent Processing**: The agent processes questions, retrieves relevant information from indexed content, and returns clear, structured answers with source references
 - **External Tool Integration**: Connects with Slack, Notion, and Calendar APIs for updates, reminders, and next steps
+
+![Slack Integration](images/slack.png)
+
+*Real-time policy alerts sent to Slack channels*
 
 ## Technical Implementation
 

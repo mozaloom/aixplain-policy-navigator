@@ -131,11 +131,11 @@ function App() {
       
       <div className="footer">
         <img 
-          src="/powered by cirrusgo.png" 
+          src="/powered_by_cirrusgo.png" 
           alt="Powered by CirrusGo" 
           className="powered-by"
-          width="300"
-          height="63"
+          width="350"
+          height="73"
         />
       </div>
     </div>
