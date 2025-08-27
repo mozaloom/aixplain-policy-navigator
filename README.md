@@ -439,19 +439,6 @@ policy-navigator/
 
 MIT License - see LICENSE file for details.
 
-## Submission
-
-This project fulfills all requirements specified in the Policy Navigator Agent assignment:
-- Multi-Agent RAG System
-- 2+ Data Sources  
-- 4+ Tool Types
-- External Tool Integration
-- Vector Storage
-- UI/CLI Interface
-- Comprehensive Documentation
-
-**Ready for submission to:** devrel@aixplain.com
-
 ---
 
 **Built with aiXplain SDK**
